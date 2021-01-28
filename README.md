@@ -3,9 +3,9 @@ This program will join all the csv files of a folder in a single one called 'joi
 
 Available options:
 ```
-     --help      Display this help screen.
-     --folder    Sets the folder that contains the files.
-     --output    Sets the name of the output file.
+     -h --help      Display this help screen.
+     -f --folder    Sets the folder that contains the files.
+     -o --output    Sets the name of the output file.
 ```
      
 Usage example: 
