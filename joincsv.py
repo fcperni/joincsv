@@ -13,6 +13,7 @@ import pandas as pd
 import getopt
 import sys
 
+
 def main():
     full_cmd_arguments = sys.argv
 
@@ -49,6 +50,7 @@ def main():
     combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames])
     # export to csv
     combined_csv.to_csv(output_file_name, index=False, encoding='utf-8-sig')
+
 
 if __name__ == "__main__":
     main()
