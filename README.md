@@ -1,5 +1,7 @@
 # joincsv
-This program will join all the csv files of a folder in a single one called 'joined.csv'.
+This program will join all the csv files of a folder in a single one.
+
+Default folder is "csv" and default output file is "joined.csv".
 
 Available options:
 ```
